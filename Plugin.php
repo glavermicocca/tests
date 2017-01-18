@@ -1,14 +1,14 @@
 <?php
 
-namespace Kanboard\Plugin\Theme;
+namespace Kanboard\Plugin\MittelTheme;
 use Kanboard\Core\Plugin\Base;
 
 class Plugin extends Base
 {
     public function initialize()
     {
-        $this->template->hook->attach('template:layout:head', 'theme:layout/head');
-        $this->template->hook->attach('template:layout:top', 'theme:layout/top');
-        $this->template->setTemplateOverride('header', 'theme:layout/header');
+        $this->template->hook->attach('template:layout:head', 'MittelTheme:layout/head');
+        # $this->template->hook->attach('template:layout:top', 'MittelTheme:layout/top');
+        # $this->template->setTemplateOverride('header', 'mitteltheme:layout/header');
     }
 }
