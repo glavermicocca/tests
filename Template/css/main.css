@@ -38,3 +38,22 @@ table.table-striped tr:nth-child(2n+1) {
 #modal-content,  #modal-content h2 {
     color: #000;
 }
+a .fa {
+    color: #999;
+}
+
+.web-notification-icon:focus, .web-notification-icon:hover {
+    color: #ddd;
+}
+
+.activity-title {
+    color: #999;
+}
+
+.activity-event:hover .activity-title {
+    color: #000;
+}
+
+.select-dropdown-input-container {
+    background-color: #fff;
+}
