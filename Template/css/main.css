@@ -8,6 +8,7 @@ a, table th a {
 }
 
 table th {
+    color: #fff;
     background-color: #375a7f;
     border-color: #375a7f;
 }
@@ -35,7 +36,12 @@ table.table-striped tr:nth-child(2n+1) {
 .sidebar > ul a:hover, .dropdown-menu-link-text, .dropdown-menu-link-icon, .action-menu, a:hover, .sidebar > ul li.active a, .sidebar > ul li.active a:focus, .sidebar > ul li.active a:hover, .page-header h2 a, h1, h2, h3, .dashboard-table-link {
     color: #fff;
 }
-#modal-content,  #modal-content h2 {
+
+#modal-box {
+    background-color: #333;
+}
+
+.select2-container {
     color: #000;
 }
 a .fa {
