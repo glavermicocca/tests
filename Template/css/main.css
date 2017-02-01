@@ -64,3 +64,23 @@ a .fa {
 .select-dropdown-input-container {
     background-color: #fff;
 }
+
+.comment:hover {
+    background-color: #444;
+}
+
+#task-summary h2 {
+    color: #000;
+}
+
+.user-mention-link {
+    color: #0ce3ac;
+}
+
+.user-mention-link:hover {
+    color: #fff;
+}
+
+.comment-actions a:focus, .comment-actions a:hover {
+    color: #0ce3ac;
+}
