@@ -3,7 +3,7 @@ body {
     background-color: #222;
 }
 
-a, table th a {
+.ui-tooltip a, a, table th a {
     color: #0ce3ac;
 }
 
@@ -70,7 +70,7 @@ a .fa {
 }
 
 #task-summary h2 {
-    color: #000;
+    color: #fff;
 }
 
 .user-mention-link {
@@ -83,4 +83,9 @@ a .fa {
 
 .comment-actions a:focus, .comment-actions a:hover {
     color: #0ce3ac;
+}
+
+.ui-tooltip {
+    background-color: #333;
+    color: #fff;
 }
