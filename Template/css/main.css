@@ -89,3 +89,15 @@ a .fa {
     background-color: #333;
     color: #fff;
 }
+
+.task-board .task-board-assignee {
+    color: #555;
+}
+
+.task-board {
+    color: #222;
+}
+
+td a.dropdown-menu strong i, td a.dropdown-menu strong {
+    color: #222;
+}
