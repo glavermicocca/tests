@@ -14,7 +14,7 @@ class Plugin extends Base
             'project' => isset($project) ? $project : null,
             'task' => isset($task) ? $task : null,
             'description' => isset($description) ? $description : null,
-            'title' => $title,
+            'title' => isset($title) ? $title : null,
         ));
     }
 }
