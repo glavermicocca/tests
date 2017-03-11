@@ -1,1 +1,0 @@
-<link rel="stylesheet" type="text/css" href="<?= $this->url->dir(); ?>plugins/MittelTheme/Template/css/main.css" media="all" />
