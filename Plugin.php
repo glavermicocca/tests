@@ -9,6 +9,7 @@ class Plugin extends Base
     {
         $this->hook->on('template:layout:css', array('template' => 'plugins/MittelTheme/Template/css/main.css'));
         # $this->template->setTemplateOverride('header', 'mitteltheme:layout/header');
+        $this->template->hook->attach('template:layout:head', 'MittelTheme:layout/head');
         $this->template->hook->attach('template:auth:login-form:before', 'MittelTheme:layout/login-before');
         $this->template->setTemplateOverride('header/title', 'MittelTheme:layout/title', array(
             'project' => isset($project) ? $project : null,
